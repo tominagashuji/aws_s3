@@ -18,7 +18,7 @@ gem 'mini_magick'
 
 gem 'dotenv-rails'
 
-gem 'fog-aws'
+# gem 'fog-aws'
 
 gem 'dotenv-rails' # 開発環境で環境変数を操作するのに必要
 gem 'unicorn' # アプリケーションサーバのunicorn
@@ -34,7 +34,6 @@ group :development, :test do
   gem 'capistrano-rbenv'
   gem 'capistrano3-unicorn'
 
-  
 end
 
 group :development do
